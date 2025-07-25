@@ -12,6 +12,10 @@ public class GithubCicdActionsApplication {
 	public  String  welcome(){
 		return "Welcome to the club baby";
 	}
+	@GetMapping("/welcome2")
+	public  String  welcome2(){
+		return "Welcome22222 to the club baby";
+	}
 //	echo "# github-actions-example" >> README.md
 //	git init
 //	git add README.md
